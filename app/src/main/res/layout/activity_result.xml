@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.intent.ResultActivity">
+
+
+    <TextView
+        android:padding="10dp"
+        android:text="Ket qua giai phuong trinh bac nhat"
+        android:textSize="20sp"
+        android:background="@color/colorGreen"
+        android:gravity="center" />
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"
+        android:layout_height="50dp"
+        android:text="Ket qua: "
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/btnKetqua"
+        android:background="@color/colorRed"
+        android:text="back"/>
+
+</TableLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.intent.MainActivity">
+
+   <TextView
+       android:padding="10dp"
+       android:text="Giai phuong trinh bac nhat"
+       android:textSize="20sp"
+       android:background="@color/colorGreen"
+       android:gravity="center"
+       />
+    <TableRow>
+        <TextView
+            android:text="Nhap so a: "
+            android:gravity="center"
+            android:layout_weight="1"/>
+        <EditText
+            android:id="@+id/edtSoA"
+            android:layout_weight="4"
+            android:hint="So a"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Nhap so b: "
+            android:gravity="center"
+            android:layout_weight="1"/>
+        <EditText
+            android:id="@+id/edtSoB"
+            android:layout_weight="4"
+            android:hint="So b"/>
+    </TableRow>
+
+    <Button
+        android:id="@+id/btnResult"
+        android:background="@color/colorRed"
+        android:text="Ket qua"/>
+
+</TableLayout>
