@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 if (TextUtils.isEmpty(edtSoA.getText()) || TextUtils.isEmpty(edtSoB.getText())) {
-                    showToast("Enter Number");
+                    showToast("Enter Number!");
                 } else {
 
                     Intent myIntent = new Intent(MainActivity.this, ResultActivity.class);
